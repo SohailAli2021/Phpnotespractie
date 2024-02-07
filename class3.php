@@ -100,35 +100,230 @@
 
 
 
-$age = array(
-    'Aslam'=>24,
-    'Shan'=>21,
-    'Akram'=>20,
-);
-echo "<pre>";
-print_r ($age['Aslam']);
-echo "</pre>";
+// $age = array(
+//     'Aslam'=>24,
+//     'Shan'=>21,
+//     'Akram'=>20,
+// );
+// echo "<pre>";
+// print_r ($age['Aslam']);
+// echo "</pre>";
 
 
-$age = array(
-    'Aslam'=>24,
-    'Shan'=>21,
-    'Akram'=>20,
-);
+// $age = array(
+//     'Aslam'=>24,
+//     'Shan'=>21,
+//     'Akram'=>20,
+// );
 
-print_r($age);
+// print_r($age);
 
-echo "<br>";
+// echo "<br>";
 
-$person = array(
-    'id'=>101,
-    'name'=>'Aslam',
-    'age'=>24,
-    'address'=>array('Karachi','Lahore')
-);
+// $person = array(
+//     'id'=>101,
+//     'name'=>'Aslam',
+//     'age'=>24,
+//     'address'=>array('Karachi','Lahore')
+// );
 
-print_r($person['address'][2]=['Multan']);
-print_r($person);
+// print_r($person['address'][2]=['Multan']);
+// print_r($person);
+
+
+
+
+// Numerical Array
+
+
+// $num  = array(21,22,23,24,25,26,27,28,29,30);
+
+// foreach($num as $value)
+// {
+//     echo "value is $value <br/>";
+// }
+
+
+// $num[0]="Ali";
+// $num[1]="Akram";
+// $num[2]=23;
+
+// foreach($num as $value)
+// {
+//     echo "value is $value <br/>";
+// }
+
+
+// Associative Array
+
+// $age = array(
+//     "Aslam"=>20,
+//     "khan" => 12,
+//     "shan"=>71
+// );
+
+// echo "Age of Aslam is ".$age['Aslam']."<br/>";
+// echo "Age of khan is ".$age['khan']."<br/>";
+// echo "Age of shan is ".$age['shan']."<br/>";
+
+// $age ['Aslam']="Adult";
+// $age ['khan']="Child";
+// $age ['shan']="senior Citizen";
+
+// echo "Aslam is ".$age['Aslam']."<br/>";
+// echo "Khan is ".$age['khan']."<br/>";
+// echo "Shan is ".$age['shan']."<br/>";
+
+
+// Multi Dimentional Array
+
+// $contact = array(
+
+//     array(
+//         "Name"=>"David",
+//         "Email"=>"david@gmail.com",
+//         "Number"=>3125165
+//     ),
+
+//     array(
+//         "Name"=>"peter",
+//         "Email"=>"peter@gmail.com",
+//         "Number"=>309737165
+//     ),
+//     array(
+//         "Name"=>"jhon",
+//         "Email"=>"jhon@gmail.com",
+//         "Number"=>3257865165
+//     )
+
+// );
+
+
+// echo "Email Id is Peter :";
+// echo $contact[1]['Email']."<br/>";
+// echo "Contact Number is David :";
+// echo $contact[0]['Number']."<br/>";
+
+// echo " Name is  :";
+// echo $contact[2]['Name']."<br/>";
+// echo "Contact Number is Jhon :";
+// echo $contact[2]['Number']."<br/>";
+
+
+
+
+
+// $student = array("Peter","David","Khan","Shan");
+// echo "Names of the Student are :".$student[0].",".$student[1].",".$student[2].",".$student[3].".";
+
+// SORT
+
+// $student = array("Peter","David","Khan","Shan","Ali");
+// sort($student);
+// $lenght = count($student);
+// for($x=0;$x<$lenght;$x++)
+// {
+//     echo $student [$x];
+//     echo "<br/>";
+// }
+
+
+// ASORT
+
+// $age = array("peter"=>"37","jhon"=>"34","David"=>"43");
+// asort($age);
+// foreach($age as $x => $x_value){
+//     echo "Key=".$x.",value=".$x_value;
+// }
+
+
+// $age = array("peter"=>"35","jhon"=>"37","David"=>"43");
+// ksort($age);
+// foreach($age as $x => $x_value){
+//     echo "Key=".$x.",value=".$x_value;
+//     echo "<br/>";
+// }
+
+
+// $age = array("peter"=>"35","jhon"=>"37","David"=>"43");
+// arsort($age);
+// foreach($age as $x => $x_value){
+//     echo "Key=".$x.",value=".$x_value;
+//     echo "<br/>";
+// }
+
+
+// $age = array("peter"=>"35","john"=>"52","David"=>"43");
+// krsort($age);
+// foreach($age as $x => $x_value){
+//     echo "Key=".$x.",value=".$x_value;
+//     echo "<br/>";
+// }
+
+
+
+// $age = array("peter","john","David");
+// rsort($age);
+// foreach($age as $x => $x_value){
+//     echo "Key=".$x.",value=".$x_value;
+//     echo "<br/>";
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -151,8 +346,6 @@ print_r($person);
 
     ?>
 
-    <!-- <pre>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas ad obcaecati.
-    </pre> -->
+    
 </body>
 </html>
