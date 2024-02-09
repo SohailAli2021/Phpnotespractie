@@ -16,6 +16,11 @@
 
   <?php
 
+// echo $_REQUEST['name'];
+
+
+
+
   if($_SERVER['REQUEST_METHOD']=='POST')
   {
     echo $_POST['name'];
